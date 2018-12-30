@@ -15,8 +15,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kopcha.Web", "tests\Kopcha.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kopcha.UnitTests", "tests\Kopcha.UnitTests\Kopcha.UnitTests.csproj", "{14DA2F67-15DD-4AF7-9913-CD1CF98BA3A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kopcha.IntegrationTests", "Kopcha.IntegrationTests\Kopcha.IntegrationTests.csproj", "{BF9BDBCE-1B35-45A5-B2BF-CAE8A8A008A3}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,10 +37,6 @@ Global
 		{14DA2F67-15DD-4AF7-9913-CD1CF98BA3A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14DA2F67-15DD-4AF7-9913-CD1CF98BA3A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14DA2F67-15DD-4AF7-9913-CD1CF98BA3A0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BF9BDBCE-1B35-45A5-B2BF-CAE8A8A008A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BF9BDBCE-1B35-45A5-B2BF-CAE8A8A008A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BF9BDBCE-1B35-45A5-B2BF-CAE8A8A008A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BF9BDBCE-1B35-45A5-B2BF-CAE8A8A008A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,7 +46,6 @@ Global
 		{D028B9F7-6FA9-4651-82A7-C8CE728BB5AA} = {F09DCA8C-6C2B-40F9-9D9B-173322C69AC3}
 		{C12465C8-5EF8-43C0-B409-0078D8FFC6BB} = {F09DCA8C-6C2B-40F9-9D9B-173322C69AC3}
 		{14DA2F67-15DD-4AF7-9913-CD1CF98BA3A0} = {F09DCA8C-6C2B-40F9-9D9B-173322C69AC3}
-		{BF9BDBCE-1B35-45A5-B2BF-CAE8A8A008A3} = {F09DCA8C-6C2B-40F9-9D9B-173322C69AC3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D24025F2-2244-465E-8F70-BB70B479DBFD}
