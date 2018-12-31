@@ -5,6 +5,6 @@
         Ip,
         Email,
         IpAndEmail,
-        Global
+        Custom
     }
 }

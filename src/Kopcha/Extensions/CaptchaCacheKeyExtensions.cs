@@ -65,7 +65,7 @@ namespace Kopcha.Extensions
                         signature = baseCacheKey + ip;
                     }
                     break;
-                case CaptchaType.Global:
+                case CaptchaType.Custom:
                     if (!string.IsNullOrEmpty(fieldName))
                     {
                         var fieldValue = GetPropValue(actionContext.ActionArguments.FirstOrDefault().Value, fieldName);
@@ -117,7 +117,7 @@ namespace Kopcha.Extensions
                 case CaptchaType.IpAndEmail:
                     signature = baseCacheKey + ipAddress + "_" + parameters.FieldValue;
                     break;
-                case CaptchaType.Global:
+                case CaptchaType.Custom:
                     if (!string.IsNullOrEmpty(parameters.FieldValue))
                     {
                         if (!string.IsNullOrEmpty(parameters.FieldValue))
