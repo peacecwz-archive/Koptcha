@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <Authors>Baris Ceviz</Authors>
+    <Company>Trendyol</Company>
+    <Description>Koptcha is simple captcha library</Description>
+    <Copyright>Copyright @ 2019</Copyright>
+    <PackageLicenseUrl>https://github.com/peacecwz/Koptcha/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/peacecwz/Koptcha</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/peacecwz/Koptcha.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>captcha, security</PackageTags>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Abstractions" Version="2.2.0" />
+  </ItemGroup>
+
+</Project>

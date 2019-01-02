@@ -38,7 +38,7 @@ public void ConfigureServices(IServiceCollection services)
 ```json
 
 "Captcha": {
-    "DomainName": "Kopcha.API",
+    "DomainName": "Koptcha.API",
     "CaptchaTokenHeaderName": "x-captcha-token",
     "CaptchaControlBaseUrl": "https://www.google.com/recaptcha/api/siteverify?secret={captcha_secretkey}&response={captcha_token}",
     "CaptchaSecretKey": "{captcha_token}",
